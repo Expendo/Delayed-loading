@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.box{
+    position: relative;
+    top:0px;
+}
+ul li{
+    list-style-type: none;
+    position: absolute;
+    padding:10px;
+    width:300px;
+    border:1px solid #ccc;
+    -webkit-transition:all .7s ease-out .1s;
+    -moz-transition:all .7s ease-out .1s;
+    -o-transition:all .7s ease-out .1s;
+    transition:all .7s ease-out .1s;
+    opacity:0;
+}
+ul li img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+h1 span{color: #ff0ff0;}
